@@ -1,0 +1,43 @@
+ Class & Objects,static variables (class variables)
+ 
+ CLASS:
+ 
+ ->Classes and Objects are basic concepts of Object Oriented Programming which revolve around the real life entities.
+ 
+ ->A class is a user defined blueprint or prototype from which objects are created.
+ ->It represents the set of properties or methods that are common to all objects of one type.
+ 
+ 
+    Modifiers: A class can be public or has default access .
+    
+    class keyword: class keyword is used to create a class.
+    
+    Class name: The name should begin with an initial letter (capitalized by convention).
+    
+    Superclass(if any): The name of the class’s parent (superclass), if any, preceded by the keyword extends. A class can only extend (subclass) one parent.
+    
+    Interfaces(if any): A comma-separated list of interfaces implemented by the class, if any, preceded by the keyword implements. 
+                        A class can implement more than one interface.
+                        
+    Body: The class body surrounded by braces, { }.
+    
+    Access specifiers for classes or interfaces in Java:
+   In Java, methods and data members can be encapsulated by the following four access specifiers. 
+   The access specifiers are listed according to their restrictiveness order. 
+   
+1) private (accessible within the class where defined) 
+2) default or package-private (when no access specifier is specified) 
+3) protected (accessible only to classes that subclass your class directly within the current or different package)
+4) public (accessible from any class)
+
+But, the classes and interfaces themselves can have only two access specifiers when declared outside any other class. 
+1) public 
+2) default (when no access specifier is specified)
+
+Note: Nested interfaces and classes can have all access specifiers.
+Note: We cannot declare class/interface with private or protected access specifiers.
+
+
+
+
+
