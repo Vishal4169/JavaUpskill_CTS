@@ -38,6 +38,10 @@ Note: Nested interfaces and classes can have all access specifiers.
 Note: We cannot declare class/interface with private or protected access specifiers.
 
 
+-Methodology or pardigm to design a program using class and objects
+-object is real world entites that as own properites and behaviours
+-classes blueprint from which an objects properites are declared 
 
+ 
 
 
